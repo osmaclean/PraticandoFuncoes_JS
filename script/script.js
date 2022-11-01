@@ -20,11 +20,29 @@ tresNumeros();
 
 // Terceira Tarefa
 
-function notasSemestrais(){
+function notasSemestrais() {
     let primeiraNota = parseInt(prompt("Insira a primeira nota semestral"));
     let segundaNota = parseInt(prompt("Insira a segunda nota semestral"));
     let mediaAnual = (primeiraNota + segundaNota) / 12;
-    alert(`A média anual das notas é de: ${mediaAnual.toFixed(2)}`)
+    alert(`A média anual das notas é de: ${mediaAnual.toFixed(2)}`);
 }
-
 notasSemestrais();
+
+// Quarta Tarefa
+
+function divisaoDois() {
+    let primNumero = parseInt(prompt("Insira o primeiro número"));
+    let segunNumero = parseInt(prompt("Insira o segundo número"));
+    let divisao = primNumero / segunNumero
+    let resto = primNumero % segunNumero
+
+    if (resto == 0) {
+        alert(`Esta divisão é exata, não há resto.`)
+    } else {
+alert(`Está é uma divisão inexata. O resultado é: ${divisao} e o resto é: ${resto}`)
+    }
+}
+divisaoDois();
+
+// Quinta Tarefa
+

@@ -46,12 +46,26 @@ divisaoDois();
 
 // Quinta Tarefa
 
-function numQuadrado(){
- let aoQuadrado = parseInt(prompt("Digite um número inteiro"));
-let calculaQuadrado = aoQuadrado * aoQuadrado;
-alert(`O quadrado de ${aoQuadrado} é: ${calculaQuadrado} `);
+function numQuadrado() {
+    let aoQuadrado = parseInt(prompt("Digite um número inteiro"));
+    let calculaQuadrado = aoQuadrado * aoQuadrado;
+    alert(`O quadrado de ${aoQuadrado} é: ${calculaQuadrado} `);
 }
 numQuadrado();
 
 // Sexta Tarefa
+
+function quatroNumbers() {
+    let NumberOne = parseInt(prompt("Digite o primeiro número"))
+    let NumberTwo = parseInt(prompt("Digite o segundo número"))
+    let NumberThree = parseInt(prompt("Digite o terceiro número"))
+    let NumberFour = parseInt(prompt("Digite o quarto número"))
+    let calcSoma = NumberOne + NumberTwo + NumberThree + NumberFour;
+    let mp = ((NumberOne * NumberOne) + (NumberTwo * NumberTwo) + (NumberThree * NumberThree) + (NumberFour * NumberFour)) / calcSoma
+    alert(`A média ponderada, é: ${mp}`);
+
+}
+quatroNumbers();
+
+// Sétima Tarefa
 

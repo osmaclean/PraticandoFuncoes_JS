@@ -69,3 +69,13 @@ quatroNumbers();
 
 // Sétima Tarefa
 
+function quatroProvas(){
+    let matematica = parseInt(prompt("Digite a nota de Matemática"))
+    let portugues = parseInt(prompt("Digite a nota de Português"))
+    let geografia = parseInt(prompt("Digite a nota de Geografia"))
+    let informatica = parseInt(prompt("Digite a nota de Informática"))
+    let somaNotas = matematica + portugues + geografia + informatica;
+    let MediaPonderada = ((matematica * matematica) + (portugues * portugues) + (geografia * geografia) + (informatica * informatica)) / somaNotas;
+    alert(`A média ponderada é de: ${MediaPonderada.toFixed(2)} e a soma das notas é de: ${somaNotas}`);
+}
+quatroProvas();

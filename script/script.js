@@ -33,16 +33,25 @@ notasSemestrais();
 function divisaoDois() {
     let primNumero = parseInt(prompt("Insira o primeiro número"));
     let segunNumero = parseInt(prompt("Insira o segundo número"));
-    let divisao = primNumero / segunNumero
-    let resto = primNumero % segunNumero
+    let divisao = primNumero / segunNumero;
+    let resto = primNumero % segunNumero;
 
     if (resto == 0) {
-        alert(`Esta divisão é exata, não há resto.`)
+        alert(`Esta divisão é exata, não há resto.`);
     } else {
-alert(`Está é uma divisão inexata. O resultado é: ${divisao} e o resto é: ${resto}`)
+        alert(`Está é uma divisão inexata. O resultado é: ${divisao} e o resto é: ${resto}`);
     }
 }
 divisaoDois();
 
 // Quinta Tarefa
+
+function numQuadrado(){
+ let aoQuadrado = parseInt(prompt("Digite um número inteiro"));
+let calculaQuadrado = aoQuadrado * aoQuadrado;
+alert(`O quadrado de ${aoQuadrado} é: ${calculaQuadrado} `);
+}
+numQuadrado();
+
+// Sexta Tarefa
 

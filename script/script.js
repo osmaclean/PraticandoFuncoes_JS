@@ -88,3 +88,13 @@ function percentual() {
     alert(`O novo salário é de: R$${calcReajuste.toFixed(2)} considerando o reajuste de 3%`);
 }
 percentual();
+
+// Nona Tarefa
+
+function triangulo() {
+    let altura = parseInt(prompt("Digite a altura do triângulo"));
+    let base = parseInt(prompt("Digite a base do triângulo"));
+    let calcTriangulo = (base * altura) / 2;
+    alert(`A área do triângulo é: ${calcTriangulo}`);
+}
+triangulo();

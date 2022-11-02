@@ -63,7 +63,6 @@ function quatroNumbers() {
     let calcSoma = NumberOne + NumberTwo + NumberThree + NumberFour;
     let mp = ((NumberOne * NumberOne) + (NumberTwo * NumberTwo) + (NumberThree * NumberThree) + (NumberFour * NumberFour)) / calcSoma;
     alert(`A média ponderada, é: ${mp}`);
-
 }
 quatroNumbers();
 

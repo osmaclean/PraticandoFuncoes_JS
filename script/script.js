@@ -56,12 +56,12 @@ numQuadrado();
 // Sexta Tarefa
 
 function quatroNumbers() {
-    let NumberOne = parseInt(prompt("Digite o primeiro número"))
-    let NumberTwo = parseInt(prompt("Digite o segundo número"))
-    let NumberThree = parseInt(prompt("Digite o terceiro número"))
-    let NumberFour = parseInt(prompt("Digite o quarto número"))
+    let NumberOne = parseInt(prompt("Digite o primeiro número"));
+    let NumberTwo = parseInt(prompt("Digite o segundo número"));
+    let NumberThree = parseInt(prompt("Digite o terceiro número"));
+    let NumberFour = parseInt(prompt("Digite o quarto número"));
     let calcSoma = NumberOne + NumberTwo + NumberThree + NumberFour;
-    let mp = ((NumberOne * NumberOne) + (NumberTwo * NumberTwo) + (NumberThree * NumberThree) + (NumberFour * NumberFour)) / calcSoma
+    let mp = ((NumberOne * NumberOne) + (NumberTwo * NumberTwo) + (NumberThree * NumberThree) + (NumberFour * NumberFour)) / calcSoma;
     alert(`A média ponderada, é: ${mp}`);
 
 }
@@ -69,13 +69,22 @@ quatroNumbers();
 
 // Sétima Tarefa
 
-function quatroProvas(){
-    let matematica = parseInt(prompt("Digite a nota de Matemática"))
-    let portugues = parseInt(prompt("Digite a nota de Português"))
-    let geografia = parseInt(prompt("Digite a nota de Geografia"))
-    let informatica = parseInt(prompt("Digite a nota de Informática"))
+function quatroProvas() {
+    let matematica = parseInt(prompt("Digite a nota de Matemática"));
+    let portugues = parseInt(prompt("Digite a nota de Português"));
+    let geografia = parseInt(prompt("Digite a nota de Geografia"));
+    let informatica = parseInt(prompt("Digite a nota de Informática"));
     let somaNotas = matematica + portugues + geografia + informatica;
     let MediaPonderada = ((matematica * matematica) + (portugues * portugues) + (geografia * geografia) + (informatica * informatica)) / somaNotas;
     alert(`A média ponderada é de: ${MediaPonderada.toFixed(2)} e a soma das notas é de: ${somaNotas}`);
 }
 quatroProvas();
+
+// Oitava Tarefa
+
+function percentual() {
+    let saldo = parseFloat(prompt("Insira o saldo da aplicação"));
+    let calcReajuste = (saldo * 0.03) + saldo;
+    alert(`O novo salário é de: R$${calcReajuste.toFixed(2)} considerando o reajuste de 3%`);
+}
+percentual();

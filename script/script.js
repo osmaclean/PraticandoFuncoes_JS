@@ -98,3 +98,15 @@ function triangulo() {
     alert(`A área do triângulo é: ${calcTriangulo}`);
 }
 triangulo();
+
+// Décima tarefa (Bônus)
+
+function tarefaBonus(){
+ let salario = parseInt(prompt("Digite o seu salário"));
+ let calcAjuste = (salario * 0.14) + salario;
+ alert(`O seu salário é de: R$${salario.toFixed(2)} com o ajuste de 14% fica em: R$${calcAjuste.toFixed(2)}`);
+}
+tarefaBonus();
+
+alert(`Page made by: Lucas Maclean.`);
+alert(`Página de aprendizado e execução de Funções e Cálculos.`);
